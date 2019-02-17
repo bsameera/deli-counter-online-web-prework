@@ -13,8 +13,21 @@ def line(katz_deli)
 end 
 
 #"The line is currently: 1. Logan 2. Avi 3. Spencer"
+#katz_deli = []
+#take_a_number(katz_deli)
+# [1]
+ 
 
+#$count = 0 
 def take_a_number(katz_deli, person)
+  # katz_deli == []
+  # Welcome, you are ticket number 1. You are number 1 in line.
+#  $count += 1 
+#  katz_deli.push($count)
+  
+#  puts "Welcome, you are ticket number #{$count}. You are number #{katz_deli.length} in line."
+  
+  
   if katz_deli.length == 0 
     puts "Welcome, #{person}. You are number 1 in line."
     katz_deli.push(person)
@@ -34,3 +47,8 @@ def now_serving(katz_deli)
     katz_deli.shift
   end 
 end 
+
+
+
+
+
